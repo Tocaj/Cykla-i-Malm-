@@ -1,0 +1,127 @@
+img{
+  border:5px;
+  height:30%;
+  width:100%;
+  margin-top:3.5%;
+  border-color:initial;
+}
+
+a{
+  font-family: "Myriamm";
+  color: black;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  text-decoration: none;
+  padding: 0px;
+}
+
+a:visited {
+    color: black;
+}
+
+h3 {
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-decoration: none;
+}
+
+p{
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-decoration: none;
+    padding-bottom: 10px;
+}
+
+#stad{
+   background-color: #A0E910;
+   box-shadow: 3px 3px grey;
+}
+
+#strand{
+   background-color: #F4EA08;
+   box-shadow: 3px 3px grey;
+}
+
+#skog{
+   background-color: #FF9600;
+   box-shadow: 3px 3px grey;
+}
+
+p{
+font-family: "Myriamm";
+}
+
+img#ruttBild{
+  height:400px;
+}
+
+button.btn.btn-info.btn-lg{
+  margin-top:5%;
+  width:100%;
+}
+
+iframe{
+  height:60%;
+  width:100%;
+}
+
+#ruttContainer > iframe {
+    height: 260px;
+    width: 100%;
+}
+
+button.btn.btn-success{
+  background-color:#63CECA;
+}
+
+button.btn.btn-default{
+  background-color:#63CECA;
+  width:40%;
+  margin-left:5%;
+}
+
+.btn-default.focus, .btn-default:focus{
+  color:#333;
+  background-color:#e6e6e6;
+  border-color:#8c8c8c;
+}
+
+#nextButton{
+  background-color:#63CECA;
+}
+
+#container{
+	width:100%;
+}
+
+#star {
+	font-size: 25px;
+	color:red;
+	margin-right:3%;
+	float:right;
+	padding:10%;
+	margin-bottom:5%;
+	padding-top:4%;
+	padding-bottom:4%;
+	background-color:white;
+	border-radius: 70px;
+	border: 1px solid black;
+}
+#star > p {
+	font-size:20px;
+}
+#title{
+	margin-top:10%;
+}
+
+#title, #length, #description{
+	margin-left:5%;
+}
+
+#welcome {
+	text-align:center;
+	margin-top:70%;
+	font-size:40px;
+}
