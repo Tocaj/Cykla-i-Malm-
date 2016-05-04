@@ -8,27 +8,25 @@ img{
 
 a{
   font-family: "Myriamm";
-  color: black;
   margin-top: 0px;
   margin-bottom: 0px;
   text-decoration: none;
   padding: 0px;
+  color: black;    
 }
 
-h3: hover {
-   font-weight: bold;
+h2:hover {
    text-decoration: none;
 }
 
-h3 {
-    color: black;
+h2 {
     text-align: center;
     margin-top: 0px;
     margin-bottom: 0px;
     text-decoration: none;
 }
 
-p{
+h4{
     text-align: center;
     margin-top: 0px;
     margin-bottom: 0px;
@@ -65,7 +63,7 @@ button.btn.btn-info.btn-lg{
 }
 
 iframe{
-  height:60%;
+  height:300px;
   width:100%;
 }
 
