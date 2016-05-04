@@ -15,11 +15,13 @@ a{
   padding: 0px;
 }
 
-a:visited {
-    color: black;
+h3: hover {
+   font-weight: bold;
+   text-decoration: none;
 }
 
 h3 {
+    color: black;
     text-align: center;
     margin-top: 0px;
     margin-bottom: 0px;
