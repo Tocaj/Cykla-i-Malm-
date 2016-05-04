@@ -12,18 +12,23 @@
     <link rel="stylesheet" href="assets/css/Pretty-Header.css">
 </head>
 
-<body>
-    <div class="container">
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+    <div id="container">
         <div> 
 		</div> 
-		<a href="index.html">Tillbaka</a>
-        <h2 id="title">Västra Hamnen</h2>
-		<button id="star" class="glyphicon glyphicon-star"><br><p>SPARA</p></button>
-		<h2 id="length">5 km</h2>
+		<div class="panel panel-default">
+        <div class="panel-head" id="title"><br>
+			<a href="index.html">Back</a>
+			<h2>Västra hamnen</h2>
+		</div>
+		
+		</div>
+        <button id="star" class="glyphicon glyphicon-star"><br><p>SAVE</p></button>
+		<h3 id="length">5 KM</h3>
 		<div class="panel-body">
 			<iframe src="https://www.google.com/maps/d/embed?mid=1cOqEmJh3XUrwHWB1yN5wTCZSUXo" width="640" height="480" frameborder="0" border="0"></iframe>
         </div> 
-		<h4 id="description">Beskrivning av rutten</h4>
+		<h4 id="description">description</h4>
 		
         <button class="btn btn-info btn-lg" type="button">Starta rutt</button>
     </div>
