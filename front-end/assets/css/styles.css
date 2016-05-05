@@ -10,17 +10,15 @@ img{
   border-color:initial;
 }
 
-a{
+.bodystyle { 
+    padding: 0px;
+}
+ .h2style{
   color: black;
   margin-top: 0px;
   margin-bottom: 0px;
   text-decoration: none;
   padding: 0px;
-  font-style: bold;
-}
-
-a:visited {
-    color: black;
 }
 
 h2 {
@@ -37,6 +35,7 @@ p{
     margin-bottom: 0px;
     text-decoration: none;
     padding-bottom: 10px;
+    font-size: 17px;
 }
 
 #stad{
@@ -68,9 +67,9 @@ iframe{
   width:100%;
 }
 
-.panel-body{
+/*.panel-body{
 	padding:0px;
-}
+}*/
 	
 #ruttContainer > iframe {
     height: 260px;
