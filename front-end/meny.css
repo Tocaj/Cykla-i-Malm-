@@ -1,0 +1,120 @@
+#menuContainer {
+/*    visibility: hidden;*/
+}
+
+img{
+  border:5px;
+  height:30%;
+  width:100%;
+  margin-top:3.5%;
+  border-color:initial;
+}
+
+h3{
+  margin-bottom:-2%;
+}
+
+img#ruttBild{
+  height:400px;
+}
+
+button.btn.btn-info.btn-lg{
+  margin-top:5%;
+  width:100%;
+}
+
+iframe{
+  height:60%;
+  width:100%;
+}
+
+button.btn.btn-success{
+  background-color:#63CECA;
+}
+
+button.btn.btn-default{
+  background-color:#63CECA;
+  width:40%;
+  margin-left:5%;
+}
+
+.btn-default.focus, .btn-default:focus{
+  color:#333;
+  background-color:#e6e6e6;
+  border-color:#8c8c8c;
+}
+
+#nextButton{
+  background-color:#63CECA;
+}
+
+div#menuContainer.container{
+  height:100%;
+  width:80%;
+  margin-left:0px;
+  background-color:red;
+  margin-bottom:0px;
+}
+
+div#menuContainer{
+  height:auto;
+  width:95%;
+  background-color:rgb(25,123,0);
+  margin-bottom:2.5%;
+  margin-left:2.5%;
+  margin-top:12.5%;
+  position:absolute;
+  border:double;
+}
+
+button.btn.btn-default{
+  margin-top:5px;
+}
+
+button.btn.btn-default{
+  margin-top:2.5;
+}
+
+button.btn.btn-default{
+  margin-top:2.5%;
+}
+
+img#menuLogo{
+  width:95%;
+  height:auto;
+  margin:2.5% 2.5% 2.5% 2.5%;
+  position:absolute;
+}
+
+button.btn.btn-default{
+  width:44.5%;
+  margin:2.5% 2.5% 2.5% 2.5%;
+}
+
+button#menuDropdown.btn.btn-default.dropdown-toggle{
+  width:95%;
+  margin:2.5% 2.5% 2.5% 2.5%;
+}
+
+h4#menuHeading.text-left{
+  width:95%;
+  margin-left:2.5%;
+  color:white;
+  margin-bottom:0%;
+}
+
+button#showMenu.btn.btn-default{
+  height:6.5%;
+  width:12.5%;
+  position:absolute;
+}
+
+img#menuImage{
+  width:100%;
+  height:100%;
+}
+
+button.btn.btn-default.dropdown-toggle{
+  width:95%;
+}
+
