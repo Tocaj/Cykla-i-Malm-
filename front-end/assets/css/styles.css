@@ -19,6 +19,7 @@ img{
   margin-bottom: 0px;
   text-decoration: none;
   padding: 0px;
+  font-family: "Myriamm";
 }
 
 h2 {
@@ -26,16 +27,15 @@ h2 {
     margin-top: 0px;
     margin-bottom: 0px;
     text-decoration: none;
-	font-weight:bold;
+    font-family: "Myriamm";
 }
 
 p{
     text-align: center;
-    margin-top: 0px;
-    margin-bottom: 0px;
     text-decoration: none;
     padding-bottom: 10px;
     font-size: 17px;
+    font-family: "Myriamm";
 }
 
 #stad{
@@ -71,6 +71,9 @@ iframe{
 	padding:0px;
 }*/
 	
+.panel {
+    margin:0px;
+}
 #ruttContainer > iframe {
     height: 260px;
     width: 100%;
@@ -101,32 +104,28 @@ button.btn.btn-default{
 	margin:0px;
 }
 
-#star {
+#star, #start {
 	font-size: 25px;
-	margin-right:3%;
-	float:right;
-	padding:10%;
-	margin-bottom:5%;
-	padding-top:4%;
-	padding-bottom:4%;
+	margin:4%;
 	background-color:white;
 	border-radius: 70px;
 	border: 1px solid black;
+    width: 40%;
 }
-#star > p {
-	font-size:20px;
+
+#star > p, #start > p {
+	font-size:17px;
 }
 #title{
 	margin-bottom:2%;
 	padding-top:0px;
-	padding-bottom:10%;
+	text-align:center;
 	background-color: #F4EA08;
     box-shadow: 3px 3px grey;
-	font-weight:bold;
+    font-family: "Myriamm";
 }
+
 #length, #description{
-	padding:5%;
-}
-#length {
-	padding-left:20%;
+	padding-left:2%;
+    padding-right:3%;
 }
