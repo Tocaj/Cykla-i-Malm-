@@ -80,13 +80,20 @@ iframe{
 }
 
 button.btn.btn-success{
-  background-color:#63CECA;
+  background-color:#f2f2f2;
 }
 
 button.btn.btn-default{
-  background-color:#63CECA;
+  background-color:#f2f2f2;
   width:40%;
-  margin-left:5%;
+}
+
+#showMenu {
+    box-shadow: 3px 3px #a6a6a6;
+    width:100%;
+    height: auto;
+    background-color: #595959;
+    color: white;
 }
 
 .btn-default.focus, .btn-default:focus{
