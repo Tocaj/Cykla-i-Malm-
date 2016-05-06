@@ -89,11 +89,14 @@ button.btn.btn-default{
 }
 
 #showMenu {
-    box-shadow: 3px 3px #a6a6a6;
+    box-shadow: 5px 5px #8c8c8c;
     width:100%;
     height: auto;
-    background-color: #595959;
+    background-color: #404040;
     color: white;
+    letter-spacing: 2px;
+    font-size: 16px;
+    font-family: "Myriamm";
 }
 
 .btn-default.focus, .btn-default:focus{
