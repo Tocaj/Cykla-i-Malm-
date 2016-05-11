@@ -1,3 +1,34 @@
+#welcomeDiv {
+    align-content: center;
+}
+
+#imgSlider {
+    width: 100%;
+    height: auto;
+    margin-top: 0%;
+}
+
+#slider{
+	position:relative;
+}
+	
+#redirect{
+/*    align-self: center;*/
+    width: 20%;
+    float:right;
+    margin-right: 3.5%;
+    margin-bottom: 3.5%;
+}
+#welcomeLogo{
+	position:absolute;
+	bottom: 10px; 
+	left: 10px;
+    width: 30%;
+    height: auto;
+	}
+
+
+
 body {
 	font-family: "Myriamm";
 }
