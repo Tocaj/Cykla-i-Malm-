@@ -5,32 +5,28 @@ Script is not working!
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Welcome</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cookie">
+
+<title>Welcome!</title>
 <!--do not forget slider.js!-->
-<style type="text/css">
-#slider{
-	position:relative;
-}
-	
-#redirect{
-	position:relative	
-	}
-#logo{
-	position:absolute;
-	bottom: 10px; 
-	left: 10px;
-	}
-</style>
+<link rel="stylesheet" href="assets/css/styles.css">
 </head>
 
 <body>
-<div id="slider">
-<img src="assets/img/1.jpg" id="img">
+<!--<div id="slider">-->
+<img src="assets/img/1.jpg" id="imgSlider">
+<!--</div>-->
+<div id="welcomeDiv">
+    <h2>Välkommen till Malmö</h2>
+    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+<input id="redirect" name="next" type="button" value="Next" class="btn btn-default"/>
 </div>
-<input id="redirect" name="next" type="button" value="Press me gently"/>
-<div id="logo">
-<img src="assets/img/Malmo_Destination_Logo_BIG RED.png" alt="logo" width="30%" height="auto"/>
-</div>
+<!--<div id="logo">-->
+<!--<img src="assets/img/Malmo_Destination_Logo_BIG RED.png" alt="logo" id="welomeLogo">-->
+<!--</div>-->
 </body>
 </html>
