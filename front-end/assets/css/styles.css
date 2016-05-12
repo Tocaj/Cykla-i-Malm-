@@ -39,8 +39,9 @@ img{
   border-color:initial;
 }
 
-.bodystyle { 
+.bodystyle { 
     padding: 0px;
+	background-color:white;
 }
  .h2style{
   color: black;
@@ -70,52 +71,86 @@ p{
     font-size: 17px;
     font-family: "Myriamm";
 }
+
+/* Traffic rule page*/
 /*p-tag in trafficrules. Addapted to have picture next to the text */
 .left {
     float:left;
     width: 70%;
-    margin-bottom: 2px; 
-    margin-left: 8px;
+    margin-bottom:5%; 
+    margin-left: 1%;
+	margin-right:1%;
     text-align:left;
 }
-/*p-tag in trafficrules. */
+/*p-tag in traffic rules. */
 .change {
     text-align:left;
-    margin-left: 8px;
+    margin-left: 3%;
 }
-/*Panels with diffrent colors */
-#stad{
+/*Panels with different colors */
+.green{
    background-color: #A0E910;
    box-shadow: 3px 3px grey;
 }
-/*Panels with diffrent colors */
-#strand{
+/*Panels with different colors */
+.yellow {
    background-color: #F4EA08;
    box-shadow: 3px 3px grey;
 }
-/*Panels with diffrent colors */
-#skog{
+/*Panels with different colors */
+.orange{
    background-color: #FF9600;
    box-shadow: 3px 3px grey;
 }
-/*Panels with diffrent colors */
+/*Panels with different colors */
 #red {
    background-color: #ff3333;
    box-shadow: 3px 3px grey;
 }
+#section1, #section2, #section3, #section4 {
+	display: none;
+}
+#equipment, #roadsigns, #haveinmind, #otherrules {
+	width:100%;
+	padding:5%;
+	font-size: 30px;
+}
 
-/*height of iframe picture */
-img#ruttBild{
-  height:400px;
+#equipment{
+	background-color: #A0E910;
+}
+#roadsigns{
+	background-color: #F4EA08;
+}
+#haveinmind{
+	background-color: #FF9600;
+}
+#otherrules{
+	background-color: #ff3333;
 }
 
 /*Size of pictures, trafficRules page*/
 .size {
     width: 20%;
     height: auto;
-    margin-left: 10px;
-    
-    }
+    margin: 2%; 
+}
+article {
+	padding-left:3%;
+	padding-right:3%;
+	height: auto;
+	width:100%;
+	float:left;
+	background-color:white;
+}
+
+
+/*height of iframe picture */
+img#ruttBild{
+  height:400px;
+}
+
+
 button.btn.btn-info.btn-lg{
   margin-top:5%;
   width:100%;
@@ -200,3 +235,6 @@ button.btn.btn-default{
     padding-right:3%;
 }
 
+#container > p {
+	text-align:left;
+}
