@@ -1,5 +1,5 @@
         var count = 1;
-		var total = 5;
+		var total = 9;
 	window.addEventListener("load", function() {
       
         window.setInterval(function slideAuto () {
@@ -13,7 +13,7 @@
         if(count <1) {
             count=total;
         }
-        Image.src = "assets/img/" + count + ".jpg";
+        Image.src = "assets/slideshow/" + count + ".jpg";
         
 
     }, 3500);
