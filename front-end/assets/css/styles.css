@@ -205,6 +205,14 @@ button.btn.btn-default{
   background-color:#63CECA;
 }
 
+#redirect {
+    background-color: #404040;
+    box-shadow: 5px 5px #8c8c8c;
+    color: white;
+    letter-spacing: 2px;
+    font-size: 16px;
+    font-family: "Myriamm";
+}
 #container{
 	width:100%;
 	margin:0px;
