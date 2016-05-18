@@ -3,7 +3,7 @@
 	window.addEventListener("load", function() {
       
         window.setInterval(function slideAuto () {
-        var Image = document.getElementById('img');
+        var Image = document.getElementById('imgSlider');
 
 
         count = count + 1;
