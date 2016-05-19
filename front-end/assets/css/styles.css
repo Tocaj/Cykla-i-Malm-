@@ -1,5 +1,14 @@
 #welcomeDiv {
     align-content: center;
+    margin: 18px;
+}
+
+#gradient {
+    background: red; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left, #f2f2f2 , #A0E910); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, #f2f2f2 , #A0E910); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, #f2f2f2 , #A0E910); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, #f2f2f2 , #A0E910); /* Standard syntax */
 }
 
 #imgSlider {
@@ -18,6 +27,13 @@
     float:right;
     margin-right: 3.5%;
     margin-bottom: 3.5%;
+    background-color: #404040;
+    margin:0px;
+    box-shadow: 5px 5px #8c8c8c;
+    color: white;
+    letter-spacing: 2px;
+    font-size: 16px;
+    font-family: "Myriamm";
 }
 #welcomeLogo{
 	position:absolute;
@@ -196,24 +212,15 @@ button.btn.btn-default{
 }
 
 .btn-default.focus, .btn-default:focus{
-  color:#333;
-  background-color:#e6e6e6;
-  border-color:#8c8c8c;
+  background-color:#333;
+  
 }
 
 #nextButton{
   background-color:#63CECA;
 }
 
-#redirect {
-    background-color: #404040;
-    margin:0px;
-    box-shadow: 5px 5px #8c8c8c;
-    color: white;
-    letter-spacing: 2px;
-    font-size: 16px;
-    font-family: "Myriamm";
-}
+
 
 #container{
 	width:100%;
