@@ -8,6 +8,14 @@
     text-decoration-color: #C8102E;
 }
 
+#gradient {
+    background: red; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#C8102E, white); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#C8102E, white); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#C8102E, white); /* Standard syntax */
+}
+
 #imgSlider {
     width: 100%;
     height: auto;
