@@ -4,6 +4,8 @@
 }
 #underline {
     text-decoration: underline;
+    -moz-text-decoration-color: #C8102E; /* Code for Firefox */
+    text-decoration-color: #C8102E;
 }
 
 #imgSlider {
