@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design1</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cookie">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/Pretty-Header.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+</head>
+    <body>
+   <div class="menu">
+        <button class="btn btn-default" type="button" id="showMenu">Menu</button>
+        <div id="menuContainer">
+            <h4 class="text-left" id="menuHeading">Set the max length of the route</h4>
+            <div class="dropdown">
+                <button class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false" type="button">Length (KM) <span class="caret"></span></button>
+            <ul class="dropdown-menu" role="menu">
+                <li role="presentation"><a href="#" value="10km" onclick="filterByKM('10')">10 km</a></li>
+                <li role="presentation" value="20"><a href="#" onclick="filterByKM('20')">20 km</a></li>
+                <li role="presentation" value="30"><a href="#" onclick="filterByKM('30')">30 km</a></li>
+                <li role="presentation" value="40"><a href="#" onclick="filterByKM('40')">40 km</a></li>
+            </ul>
+        <button class="btn btn-default" type="button" id="btnSearch">Family routes</button>        
+        </div>
+        <br>
+        <button class="btn btn-default" type="button"><a href="trafficRules.html">Traffic rules</a></button>
+        <button class="btn btn-default" type="button">Help</button>
+        <br>
+        </div>
+        </div>
+        
+        <div id="rowResult"></div>
+       
+
+
+
+<!--
+    <div class="panel panel-default">
+        <div class="panel-head green"><br>
+            <a class="h2style" href="ruttpage.html"><h2 >Malmöslott</h2></a>
+            <p> 3 km </p>
+        </div>
+    <div class="bodystyle"><iframe src="https://www.google.com/maps/d/embed?mid=1cOqEmJh3XUrwHWB1yN5wTCZSUXo" width="640" height="480"frameborder="0" border="0" ></iframe></div>    
+    </div>
+    <input type="button" id="btnRoute">
+    <div class="panel panel-default">
+        <div class="panel-head yellow"><br><a class="h2style" href="ruttpage.html"><h2>Västra hamnen</h2></a>
+        <p> 5 km </p>
+        </div>
+    <div class="bodystyle"><iframe src="https://www.google.com/maps/d/embed?mid=1cOqEmJh3XUrwHWB1yN5wTCZSUXo" width="640" height="480" frameborder="0" border="0"></iframe>
+        </div> 
+    </div>
+    
+    <div class="panel panel-default">
+    <div class="panel-head orange"><br><a class="h2style" href="ruttpage.html" class="h2style"><h2>Bokskogen</h2></a>
+        <p> 10 km </p>
+    </div>
+    <div class="bodystyle"><iframe src="https://www.google.com/maps/d/embed?mid=1cOqEmJh3XUrwHWB1yN5wTCZSUXo" width="640" height="480" frameborder="0" style="border:0"></iframe></div>    
+    </div>
+-->
+
+
+
+     
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/menu.js"></script>
+    <script src="assets/js/connection.js"></script>
+</body>
+
+</html>
